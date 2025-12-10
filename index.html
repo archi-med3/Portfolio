@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicolò Tesoro | Junior Developer & IT Specialist</title>
+    <meta name="description" content="Portfolio di Nicolò Tesoro. Junior Developer, System Administrator e IT Support Technician. Esplora i miei progetti in AI, hardware e software.">
+    <meta name="keywords" content="Nicolò Tesoro, Junior Developer, System Administrator, IT Support, Linux, Python, C++, ESP32, portfolio sviluppatore">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER AND NAVBAR -->
+    <header>
+        <div class="container">
+            <nav aria-label="Navigazione principale">
+                <div class="logo">Nicolò Tesoro</div>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#projects">Progetti</a></li>
+                    <li><a href="#skills">Competenze</a></li>
+                    <li><a href="#about">Chi Sono</a></li>
+                    <li><a href="#contact">Contatti</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Ciao, sono <span style="color: var(--accent-green);">Nicolò Tesoro</span><br>
+                    <span class="role-wrapper">
+                        <span class="dynamic-text" id="dynamicText">Junior Developer</span>
+                    </span>
+                </h1>
+                <p>Costruisco soluzioni dove hardware e software si incontrano. Appassionato di automazione, problem solving e sistemi embedded. Cerco un ruolo come Junior Developer, System Administrator o IT Support Technician in un team dinamico.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-secondary"><i class="fas fa-code" aria-hidden="true"></i> Vedi i miei progetti</a>
+                    <a href="#contact" class="btn"><i class="fas fa-paper-plane" aria-hidden="true"></i> Contattami</a>
+                    <a href="docs/CV - Nicolò Tesoro.pdf" class="btn" download><i class="fas fa-download" aria-hidden="true"></i> Scarica il CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Progetti in Evidenza</h2>
+            <div class="projects-grid">
+                <!-- PROGETTO 1: HandMirror-AI -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-robot" aria-hidden="true"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">HandMirror-AI</h3>
+                        <p>
+                            Sistema di tracciamento gesti con intelligenza artificiale per controllare in tempo reale servomotori tramite ESP32.
+                            Il progetto integra computer vision e controllo embedded per esplorare interfacce uomo-macchina senza contatto.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Mediapipe</span>
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">ESP32</span>
+                            <span class="tech-tag">Arduino IDE</span>
+                        </div>
+                        <a href="https://github.com/archi-med3/HandMirror-AI" target="_blank" rel="noopener noreferrer" class="btn"><i class="fab fa-github" aria-hidden="true"></i> Vedi Codice</a>
+                    </div>
+                </div>
+
+                <!-- PROGETTO 2: Premio Innovazione -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fas fa-trophy" aria-hidden="true"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Premio Nazionale Innovazione Digitale<br>4ª edizione</h3>
+                        <p>
+                            1° posto nella categoria Digital Enablers con GoMino, un robot educativo con AI pensato per supportare l’apprendimento dei bambini.
+                            Progetto realizzato in collaborazione con Exprivia e HRCOFFEE, nell’ambito del Premio Nazionale sull’Innovazione Digitale promosso da Anitec-Assinform.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Teamwork</span>
+                            <span class="tech-tag">Progettazione</span>
+                            <span class="tech-tag">AI Concept</span>
+                            <span class="tech-tag">Presentazione</span>
+                        </div>
+                        <p><strong>Il mio ruolo:</strong> Progettazione e sviluppo dell'architettura del software.</p>
+                        <a href="https://www.anitec-assinform.it/cosa-facciamo/iniziative-e-progetti/premio-nazionale-innovazione-digitale/archivio/4-edizione/vincitori/iis-g-ferraris-molfetta-ba-.kl" target="_blank" rel="noopener noreferrer" class="btn"><i class="fas fa-info-circle" aria-hidden="true"></i> Maggiori Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Competenze Tecniche</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code" aria-hidden="true"></i> Sviluppo Software</h3>
+                    <div class="skill-item"><span class="skill-icon"><i class="fas fa-cog" aria-hidden="true"></i></span> C / C++</div>
+                    <div class="skill-item"><span class="skill-icon"><i class="fab fa-java" aria-hidden="true"></i></span> Java</div>
+                    <div class="skill-item"><span class="skill-icon"><i class="fab fa-python" aria-hidden="true"></i></span> Python</div>
+                    <div class="skill-item"><span class="skill-icon"><i class="fab fa-js" aria-hidden="true"></i></span> JavaScript</div>
+                    <div class="skill-item"><span class="skill-icon"><i class="fas fa-database" aria-hidden="true"></i></span> SQL</div>
+                    <div class="skill-item"><span class="skill-icon"><i class="fas fa-code" aria-hidden="true"></i></span> PHP</div>
+                    <div class="skill-item"><span class="skill-icon"><i class="fab fa-git-alt" aria-hidden="true"></i></span> Git & GitHub</div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-server" aria-hidden="true"></i> System & IT</h3>
+                    <div class="skill-item"><span class="skill-icon"><i class="fab fa-linux" aria-hidden="true"></i></span> Linux Administration</div>
+                    <div class="skill-item"><span class="skill-icon"><i class="fas fa-box" aria-hidden="true"></i></span> Docker (principi di containerizzazione)</div>
+                    <div class="skill-item"><span class="skill-icon"><i class="fas fa-network-wired" aria-hidden="true"></i></span> Reti e Protocolli</div>
+                    <div class="skill-item"><span class="skill-icon"><i class="fas fa-tools" aria-hidden="true"></i></span> Troubleshooting</div>
+                    <div class="skill-item"><span class="skill-icon"><i class="fas fa-desktop" aria-hidden="true"></i></span> IT Support</div>
+                    <div class="skill-item"><span class="skill-icon"><i class="fas fa-microchip" aria-hidden="true"></i></span> Hardware (ESP32)</div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain" aria-hidden="true"></i> Soft Skills</h3>
+                    <div class="skill-item"><span class="skill-icon"><i class="fas fa-puzzle-piece" aria-hidden="true"></i></span> Problem Solving</div>
+                    <div class="skill-item"><span class="skill-icon"><i class="fas fa-users" aria-hidden="true"></i></span> Teamwork</div>
+                    <div class="skill-item"><span class="skill-icon"><i class="fas fa-comments" aria-hidden="true"></i></span> Comunicazione</div>
+                    <div class="skill-item"><span class="skill-icon"><i class="fas fa-book" aria-hidden="true"></i></span> Apprendimento Rapido</div>
+                    <div class="skill-item"><span class="skill-icon"><i class="fas fa-project-diagram" aria-hidden="true"></i></span> Progettazione</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">Chi Sono</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="docs/profile.JPG" alt="Ritratto di Nicolò Tesoro" class="profile-photo">
+                </div>
+                <div class="about-text">
+                    <p>
+                        Sono uno studente di Ingegneria Informatica e dell’Automazione presso il Politecnico di Bari, appassionato di sistemi Linux, cybersecurity e sviluppo software.
+                        Mi piace lavorare dove si incontrano codice, reti e hardware, come dimostra il progetto HandMirror-AI con ESP32 e computer vision.
+                    </p>
+                    <p>
+                        Le esperienze in competizioni come CyberChallenge.IT e nel Premio Innovazione Digitale mi hanno insegnato a lavorare in squadra, comunicare idee tecniche in modo chiaro e trasformare un concetto in una soluzione concreta.
+                        Cerco un’opportunità come Junior Developer, System Administrator o IT Support Technician per crescere in un ambiente professionale strutturato.
+                    </p>
+                    <a href="#contact" class="btn btn-secondary" style="margin-top: 20px;">Parliamo del tuo progetto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTS SECTION -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Contattami</h2>
+            <p style="text-align: center; max-width: 600px; margin: 0 auto 50px; color: var(--text-secondary);">
+                Se stai cercando un junior motivato con esperienza su Linux, sviluppo software e supporto IT, scrivimi pure: sono aperto a colloqui, stage e collaborazioni.
+            </p>
+            <div class="contact-links">
+                <a href="mailto:nicolo.tesoro.nt@gmail.com" class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-envelope" aria-hidden="true"></i></div>
+                    <h3>Email</h3>
+                    <p>nicolo.tesoro.nt@gmail.com</p>
+                </a>
+                <a href="https://www.linkedin.com/in/nicolo-tesoro/" target="_blank" rel="noopener noreferrer" class="contact-item">
+                    <div class="contact-icon"><i class="fab fa-linkedin" aria-hidden="true"></i></div>
+                    <h3>LinkedIn</h3>
+                    <p>/in/nicolo-tesoro</p>
+                </a>
+                <a href="https://github.com/archi-med3" target="_blank" rel="noopener noreferrer" class="contact-item">
+                    <div class="contact-icon"><i class="fab fa-github" aria-hidden="true"></i></div>
+                    <h3>GitHub</h3>
+                    <p>/archi-med3</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <p>© <span id="currentYear"></span> Nicolò Tesoro. Tutti i diritti riservati.</p>
+            <p style="margin-top: 10px; font-size: 0.9rem;">Sito realizzato con HTML, CSS e JavaScript.</p>
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script>
+        // Menu mobile
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.querySelector('.nav-links');
+        
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileMenuBtn.innerHTML = navLinks.classList.contains('active') 
+                ? '<i class="fas fa-times" aria-hidden="true"></i>' 
+                : '<i class="fas fa-bars" aria-hidden="true"></i>';
+        });
+
+        // Testo dinamico nell'hero
+        const dynamicText = document.getElementById('dynamicText');
+        const roles = ["Junior Developer", "System Administrator", "IT Support Technician"];
+        let roleIndex = 0;
+        let charIndex = 16;
+        let isDeleting = false;
+        let typingSpeed = 100;
+
+        function typeEffect() {
+            const currentRole = roles[roleIndex];
+            
+            if (!isDeleting && charIndex < currentRole.length) {
+                dynamicText.textContent += currentRole.charAt(charIndex);
+                charIndex++;
+                typingSpeed = 100;
+            } else if (isDeleting && charIndex > 0) {
+                dynamicText.textContent = currentRole.substring(0, charIndex - 1);
+                charIndex--;
+                typingSpeed = 50;
+            }
+            
+            if (!isDeleting && charIndex === currentRole.length) {
+                isDeleting = true;
+                typingSpeed = 1500; // Pausa alla fine
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                roleIndex = (roleIndex + 1) % roles.length;
+                typingSpeed = 500; // Pausa prima di iniziare
+            }
+            
+            setTimeout(typeEffect, typingSpeed);
+        }
+
+        // Inizia l'effetto dopo il caricamento
+        document.addEventListener('DOMContentLoaded', () => {
+            typeEffect();
+            
+            // Anno corrente nel footer
+            document.getElementById('currentYear').textContent = new Date().getFullYear();
+            
+            // Smooth scrolling per i link interni
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    if(targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if(targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 80,
+                            behavior: 'smooth'
+                        });
+                        
+                        // Chiudi menu mobile se aperto
+                        navLinks.classList.remove('active');
+                        mobileMenuBtn.innerHTML = '<i class="fas fa-bars" aria-hidden="true"></i>';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
